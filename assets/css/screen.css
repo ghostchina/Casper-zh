@@ -938,7 +938,7 @@ body:not(.post-template) .post-title {
 
 /* Create some space to the right for the share links */
 .post-footer .author {
-    margin-right: 180px;
+    margin-right: 260px;
 }
 
 .post-footer h4 a {
@@ -958,7 +958,7 @@ body:not(.post-template) .post-title {
     position: absolute;
     top: 6rem;
     right: 0;
-    width: 140px;
+    width: 230px;
 }
 
 .post-footer .share a {
