@@ -1389,7 +1389,7 @@ body:not(.post-template) .post-title {
 }
 
 .read-next-story .post:before {
-    content: "Read This Next";
+    content: "前一篇";
     padding: 4px 10px 5px;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -1400,7 +1400,7 @@ body:not(.post-template) .post-title {
     transition: all 0.5s ease;
 }
 .read-next-story.prev .post:before {
-    content: "You Might Enjoy";
+    content: "后一篇";
 }
 
 .read-next-story h2 {
