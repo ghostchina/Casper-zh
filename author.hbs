@@ -9,7 +9,7 @@
         <nav class="main-nav overlay clearfix">
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             {{#if @blog.navigation}}
-                <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">菜单</span></a>
+                <a class="menu-button icon-menu" href="#"><span class="word">菜单</span></a>
             {{/if}}
         </nav>
     </header>
@@ -17,7 +17,7 @@
     <section class="author-profile inner">
         {{#if image}}
         <figure class="author-image">
-            <div class="img" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></div>
+            <div class="img" style="background-image: url({{image}})"><span class="hidden">{{name}}的头像</span></div>
         </figure>
         {{/if}}
         <h1 class="author-title">{{name}}</h1>
