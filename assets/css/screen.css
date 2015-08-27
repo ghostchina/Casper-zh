@@ -213,6 +213,7 @@ h4, h5, h6 {
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     text-rendering: geometricPrecision;
+    font-weight: normal;
 }
 
 h1 {
@@ -277,7 +278,7 @@ dl dt {
     text-align: right;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-weight: 700;
+    font-weight: normal;
     margin-bottom: 1em;
 }
 
@@ -326,7 +327,7 @@ blockquote small {
 blockquote small:before { content: "\2014 \00A0"; }
 
 blockquote cite {
-    font-weight: 700;
+    font-weight: normal;
 }
 
 blockquote cite a { font-weight: normal; }
@@ -575,7 +576,7 @@ body.nav-opened .nav {
     top: 45px;
     left: 30px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: normal;
     text-transform: uppercase;
     color: #fff;
 }
@@ -801,7 +802,7 @@ body.nav-opened .nav {
 }
 .menu-button:before {
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     margin-right: 6px;
     position: relative;
     top: 1px;
@@ -868,7 +869,7 @@ body.nav-opened .nav {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
-    font-weight: 700;
+    font-weight: normal;
     font-family: inherit;
     color: #fff;
 }
@@ -1006,7 +1007,7 @@ body:not(.post-template) .post-title {
 
 .user-name {
     display: block;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 .user-bio {
@@ -1026,7 +1027,7 @@ body:not(.post-template) .post-title {
 
 .publish-heading {
     display: block;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 .publish-date {
@@ -1296,7 +1297,7 @@ body:not(.post-template) .post-title {
 .author-bio {
     font-size: 1.8rem;
     line-height: 1.5em;
-    font-weight: 200;
+    font-weight: normal;
     color: #50585D;
     letter-spacing: 0;
     text-indent: 0;
