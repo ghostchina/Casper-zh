@@ -213,7 +213,6 @@ h4, h5, h6 {
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     text-rendering: geometricPrecision;
-    font-weight: normal;
 }
 
 h1 {
@@ -327,7 +326,7 @@ blockquote small {
 blockquote small:before { content: "\2014 \00A0"; }
 
 blockquote cite {
-    font-weight: normal;
+    font-weight: 700;
 }
 
 blockquote cite a { font-weight: normal; }
@@ -869,7 +868,7 @@ body.nav-opened .nav {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
-    font-weight: normal;
+    font-weight: 700;
     font-family: inherit;
     color: #fff;
 }
@@ -1007,7 +1006,7 @@ body:not(.post-template) .post-title {
 
 .user-name {
     display: block;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 .user-bio {
@@ -1027,7 +1026,7 @@ body:not(.post-template) .post-title {
 
 .publish-heading {
     display: block;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 .publish-date {
